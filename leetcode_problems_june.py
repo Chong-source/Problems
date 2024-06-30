@@ -2,11 +2,12 @@
 
 
 # June 27. Two sums
-def two_sum(nums, target):
+def two_sum_brute(nums, target):
     """
     :type nums: List[int]
     :type target: int
     :rtype: List[int]
+
     """
     for x in range(len(nums)):
         for y in range(x + 1, len(nums)):
